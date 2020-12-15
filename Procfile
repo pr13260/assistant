@@ -1,1 +1,1 @@
-python3 -m assistant
+worker: python3 -m assistant
