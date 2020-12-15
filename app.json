@@ -1,0 +1,20 @@
+{
+    "name": "Video FFMPEG Bot",
+    "description": "Nothing to read here.",
+    "repository": "https://github.com/AbirHasan2005/assistant",
+    "logo": "https://telegra.ph/file/9d25c6bc85a8bfcca98df.jpg",
+    "keywords": [
+        "python",
+        "telegram",
+        "pyrogram"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
